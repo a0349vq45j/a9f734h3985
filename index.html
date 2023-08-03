@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01101100 01101001 01100101 01101110 01111010 01101111</title>
+    <!--<link rel="stylesheet" href="C:/Users/miren/Desktop/xabi/VSCode/Web/Perma/Paliver/style.css"/>-->
+    <style>
+        .texto {
+            height: 100%;
+            width: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .container {
+            display: flex;
+        }
+        .paliver {
+            display: block;
+            margin-top: 130px;
+            margin-bottom: auto;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            opacity: 0;
+            animation: fadeIn 4s ease-in-out forwards;
+        }
+
+        .rechazado {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 50px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .olvidado {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 300px;
+            color: white;
+            cursor: pointer;
+        }
+        .perdido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+            color: white;
+            cursor: help;
+        }
+
+        .abandonado {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 500px;
+            color: white;
+            cursor: pointer;
+        }
+        .text2 {
+            display: block;
+            margin-top: 0;
+            height: 100%;
+            width: 300px;
+            margin-left: 0;
+            margin-right: auto;
+        }
+
+        .text3 {
+            display: block;
+            margin-top: 0;
+            height: 100%;
+            width: 300px;
+            margin-right: 0;
+            margin-left: auto;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            } to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="text2">
+            <h1 class="olvidado">
+                Olvidado
+            </h1>
+        </div>
+        <div class="texto">
+            <h1 class="rechazado">
+                Rechazado
+            </h1>
+            <img src="elabandonado.gif" alt="..." class="paliver">
+            <h1 class="perdido">
+                Perdido
+            </h1>
+        </div>
+        
+        <div class="text3">
+            <h1 class="abandonado">
+                Abandonado
+            </h1>
+        </div>
+        <script href="index.js"></script>
+        </div>
+</body>
+</html>
